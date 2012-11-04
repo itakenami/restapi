@@ -1,7 +1,6 @@
 Adicione esta configuração em dependencies.yml para instalar o módulo
 
     # Application dependencies
-
     require:
         - play
         - takenami -> restapi 0.1
