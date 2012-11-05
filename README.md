@@ -3,12 +3,12 @@ Adicione esta configuração em dependencies.yml para instalar o módulo
     # Application dependencies
     require:
         - play
-        - takenami -> restapi 0.1
-    
+        - takenami -> restapi 0.
+
     # My custom repositories
     repositories:
-        - zenexity:
+        - takenami:
             type:       http
-            artifact:   "https://github.com/itakenami/restapi/blob/master/dist/[module]-[revision].zip?raw=true"
+            artifact:   "http://cloud.github.com/downloads/itakenami/restapi/[module]-[revision].zip"
             contains:
                 - takenami -> *
