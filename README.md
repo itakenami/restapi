@@ -1,13 +1,15 @@
-# Application dependencies
+Adicione esta configuração em dependencies.yml para instalar o módulo
 
-require:
-    - play
-    - restapi -> restapi 0.1
+    # Application dependencies
 
-# My custom repositories
-repositories:
-    - zenexity:
-        type:       http
-        artifact:   "https://github.com/itakenami/restapi/blob/master/dist/[module]-[revision].zip?raw=true"
-        contains:
-            - restapi -> *
+    require:
+        - play
+        - restapi -> restapi 0.1
+    
+    # My custom repositories
+    repositories:
+        - zenexity:
+            type:       http
+            artifact:   "https://github.com/itakenami/restapi/blob/master/dist/[module]-[revision].zip?raw=true"
+            contains:
+                - restapi -> *
