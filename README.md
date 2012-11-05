@@ -4,7 +4,7 @@ Adicione esta configuração em dependencies.yml para instalar o módulo
 
     require:
         - play
-        - restapi -> restapi 0.1
+        - takenami -> restapi 0.1
     
     # My custom repositories
     repositories:
@@ -12,4 +12,4 @@ Adicione esta configuração em dependencies.yml para instalar o módulo
             type:       http
             artifact:   "https://github.com/itakenami/restapi/blob/master/dist/[module]-[revision].zip?raw=true"
             contains:
-                - restapi -> *
+                - takenami -> *
