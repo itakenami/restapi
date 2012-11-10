@@ -22,5 +22,23 @@ Adicione esta configuração em conf/dependencies.yml
                 - takenami -> *
 
 Dentro da pasta do projeto rode o comando:
-   play dependencies
+	play dependencies
+	
+## Testando
 
+Para criar um exmplo, dentro da pasta do projeto, utilize o comando:
+	restapi:sample
+	
+Após executar o comando acima os seguintes arquivos serão criados:
+* app/models/Usuario.java => Model exemplo
+* app/controllers/Usuarios.java => Controlador com as abstrações contidas na LIB play-rest
+* app/controllers/Wadl.java => Controller para gerar arquivo WADL do projeto
+* conf/result_messages.properties => Mensagens de retorno
+
+Além dos arquivos criados, uma configuração adicionar será incluida nos seguintes arquivos:
+* conf/application.conf
+* conf/routes
+
+Para testar utilize as URLs:
+* http://localhost:9000/api/wadl => Arquivo WADL
+* http://localhost:9000/api/clientes => Método GET que obter uma lista de Clientes
