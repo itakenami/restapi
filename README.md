@@ -22,7 +22,8 @@ Adicione esta configuração em conf/dependencies.yml
                 - takenami -> *
 
 Dentro da pasta do projeto rode o comando:
-	play dependencies
+
+	```play dependencies```
 	
 ## Testando
 
