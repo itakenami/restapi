@@ -1,3 +1,10 @@
+
+# RESTAPI
+
+Modulo para Play 1.2.x que utiliza a biblioteca play-rest para implementar serviços REST de forma simples e organizada.
+
+## Como instalar
+
 Adicione esta configuração em dependencies.yml para instalar o módulo
 
     # Application dependencies
