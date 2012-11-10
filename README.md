@@ -2,7 +2,7 @@
 
 Modulo para Play 1.2.x que utiliza a biblioteca play-rest para implementar serviços REST de forma simples e organizada.
 
-## Como instalar
+## Como Instalar
 
 Instale o Play 1.2.x e crie um novo projeto como descrito no link: http://www.playframework.org/documentation/1.2.5/install
 
@@ -23,20 +23,24 @@ Adicione esta configuração em conf/dependencies.yml
 
 Dentro da pasta do projeto rode o comando:
 
-	```play dependencies```
+	play dependencies
 	
+Agora o módulo já foi instalado e está pronto para ser utilizado. Este módulo é compativel com Deploy na Cloud do Heroku.
+
 ## Testando
 
-Para criar um exmplo, dentro da pasta do projeto, utilize o comando:
+Para criar um exemplo, dentro da pasta do projeto, utilize o comando:
+
 	restapi:sample
 	
-Após executar o comando acima os seguintes arquivos serão criados:
+	
+Após executar o comando acima, os seguintes arquivos serão criados:
 * app/models/Usuario.java => Model exemplo
 * app/controllers/Usuarios.java => Controlador com as abstrações contidas na LIB play-rest
 * app/controllers/Wadl.java => Controller para gerar arquivo WADL do projeto
 * conf/result_messages.properties => Mensagens de retorno
 
-Além dos arquivos criados, uma configuração adicionar será incluida nos seguintes arquivos:
+Além dos arquivos criados, uma configuração adicional será incluída nos seguintes arquivos:
 * conf/application.conf
 * conf/routes
 
