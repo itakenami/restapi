@@ -41,8 +41,8 @@ Após executar o comando acima, os seguintes arquivos serão criados:
 * conf/result_messages.properties => Mensagens de retorno
 
 Além dos arquivos criados, uma configuração adicional será incluída nos seguintes arquivos:
-* conf/application.conf
-* conf/routes
+* conf/application.conf => Adicionar a URL BASE para o WADL e o tipo de retorno: JSON ou XML
+* conf/routes => Carrega as rotas contidas no módulo
 
 Para testar utilize as URLs:
 * http://localhost:9000/api/wadl => Arquivo WADL
