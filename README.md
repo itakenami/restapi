@@ -1,11 +1,12 @@
-
 # RESTAPI
 
 Modulo para Play 1.2.x que utiliza a biblioteca play-rest para implementar serviços REST de forma simples e organizada.
 
 ## Como instalar
 
-Adicione esta configuração em dependencies.yml para instalar o módulo
+Instale o Play 1.2.x e crie um novo projeto como descrito no link: http://www.playframework.org/documentation/1.2.5/install
+
+Adicione esta configuração em conf/dependencies.yml
 
     # Application dependencies
     require:
@@ -19,3 +20,7 @@ Adicione esta configuração em dependencies.yml para instalar o módulo
             artifact:   "http://cloud.github.com/downloads/itakenami/restapi/[module]-[revision].zip"
             contains:
                 - takenami -> *
+
+Dentro da pasta do projeto rode o comando:
+   play dependencies
+
